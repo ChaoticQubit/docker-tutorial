@@ -10,8 +10,8 @@ services:
 
   node_app:
     build: .
-    env_file:
-      - .env
+    environment:
+      - PORT=8000
     depends_on:
       - mongo
   
