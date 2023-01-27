@@ -52,7 +52,7 @@ app.use(session({
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("<h1>Helo Chodumal!!!!!!!!!!!!!!!!!!</h1>");
+    res.send("<h1>Helo Chodumal</h1>");
     console.log("edfcsdfcesdfcdeswc!!!!");
 });
 
